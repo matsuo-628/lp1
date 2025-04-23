@@ -28,7 +28,7 @@
 <body>
     <header>
         <div class="container header__content">
-            <h1 class="header__logo"><a href="/index"><img src="/assets/image/index_logo.png" alt="header-logo"></a></h1>
+            <h1 class="header__logo"><a href="/index"><img src="/assets/image/index_logo.png" alt="Kira-Kira Juku"></a></h1>
             <nav class="header__nav">
                 <ul class="header__nav_list">
                     <li class="header__nav_list-item"><a href="#reason">選ばれる３つの理由</a></li>
@@ -36,7 +36,7 @@
                     <li class="header__nav_list-item"><a href="#cost">費用</a></li>
                 </ul>
                 <div class="header__nav_button">
-                    <button class="c__button" type="button" onClick="location.href='/entry'">入学説明会に申し込む</button>
+                    <a class="c__button" href="/entry">入学説明会に申し込む</a>
                 </div>
             </nav>
         </div>
@@ -50,26 +50,29 @@
         <div class="main-visual">
             <div class="mv__content">
                 <div class="mv__img_sub">
-                    <img src="/assets/image/mv_torophy.png" alt="合格実績No.1">
+                    <img class="mv__img_sub-left" src="/assets/image/mv_frame_left.png" alt="">
+                    <p class="mv__sub_text-small">難関大学の合格実績</p>
+                    <p class="mv__sub_text-middle">No.<span class="mv__sub_text-big">1</span></p>
+                    <img class="mv__img_sub-right" src="/assets/image/mv_frame_right.png" alt="">
                 </div>
                 <div class="mv__text">
                     <p class="mv__text_small">現役高校生・高卒生</p>
                     <p class="mv__text_big">
                         入学説明会の<br>
-                        申し込み開始
+                        お申し込み開始
                     </p>
                 </div>
             </div>
         </div>
         <ul class="mv__menu">
                 <li class="mv__menu_button">
-                    <button class="c__button mv__button_inquiry" type="button" onClick="location.href='/inquiry'">入学のお問い合わせ</button>
+                    <a class="c__button mv__button_inquiry" href="/inquiry">入学のお問い合わせ</a>
                 </li>
                 <li class="mv__menu_button">
-                    <button class="c__button mv__button_freetrial" type="button" onClick="location.href='/freetrial'">無料体験に申し込む</button>
+                    <a class="c__button mv__button_freetrial" href="/freetrial">無料体験に申し込む</a>
                 </li>
                 <li class="mv__menu_button">
-                <button class="c__button mv__button_request" type="button" onClick="location.href='/request'">資料請求する</button>
+                    <a class="c__button mv__button_request" href="/request">資料請求する</a>
                 </li>
         </ul>
         <section id="reason" class="reason">
@@ -127,7 +130,7 @@
         <div class="entry">
             <p class="entry__text">入学ご検討の方は、まずは入学説明会に<br class="entry__text_sp">お越しください</p>
             <div class="entry__button">
-                <button class="c__button c__button_entry" type="button" onClick="location.href='/entry'">入学説明会に申し込む</button>
+                <a class="c__button c__button_entry" href="/entry">入学説明会に申し込む</a>
             </div>
         </div>
         <section id="courses" class="courses">
@@ -179,7 +182,7 @@
                             <li class="courses__tab_item">
                                 <a href="#">
                                     <div class="courses__img_wrap">
-                                        <img class="courses__tab_img" src="/assets/image/cource_05.jpg" alt="難関大学・医学部合格を目指す">
+                                        <img class="courses__tab_img" src="/assets/image/cource_05.jpg" alt="">
                                     </div>
                                     <p class="c__lead_link">難関大学・医学部合格を目指す</p>
                                 </a>
@@ -187,7 +190,7 @@
                             <li class="courses__tab_item">
                                 <a href="#">
                                     <div class="courses__img_wrap">
-                                        <img class="courses__tab_img" src="/assets/image/cource_06.jpg" alt="名門私立大学合格を目指す">
+                                        <img class="courses__tab_img" src="/assets/image/cource_06.jpg" alt="">
                                     </div>
                                     <p class="c__lead_link">名門私立大学合格を目指す</p>
                                 </a>
@@ -195,7 +198,7 @@
                             <li class="courses__tab_item">
                                 <a href="#">
                                     <div class="courses__img_wrap">
-                                        <img class="courses__tab_img" src="/assets/image/cource_07.jpg" alt="国公立大学合格を目指す">
+                                        <img class="courses__tab_img" src="/assets/image/cource_07.jpg" alt="">
                                     </div>
                                     <p class="c__lead_link">国公立大学合格を目指す</p>
                                 </a>
@@ -203,7 +206,7 @@
                             <li class="courses__tab_item">
                                 <a href="#">
                                     <div class="courses__img_wrap">
-                                        <img class="courses__tab_img" src="/assets/image/cource_08.jpg" alt="海外の大学合格を目指す">
+                                        <img class="courses__tab_img" src="/assets/image/cource_08.jpg" alt="">
                                     </div>
                                     <p class="c__lead_link">海外の大学合格を目指す</p>
                                 </a>
@@ -216,7 +219,7 @@
         <div class="entry">
             <p class="entry__text">入学ご検討の方は、まずは入学説明会に<br class="entry__text_sp">お越しください</p>
             <div class="entry__button">
-                <button class="c__button c__button_entry" type="button" onClick="location.href='/entry'">入学説明会に申し込む</button>
+                <a class="c__button c__button_entry" href="/entry">入学説明会に申し込む</a>
             </div>
         </div>
         <section id="cost" class="cost">
@@ -232,27 +235,27 @@
                     <tbody>
                     <tr>
                         <td class="cost__table_body01">5講</td>
-                        <td class="cost__table_body02">¥24,500円</td>
+                        <td class="cost__table_body02">24,500円</td>
                     </tr>
                     <tr>
                         <td class="cost__table_body01">10講</td>
-                        <td class="cost__table_body02">¥49,000円</td>
+                        <td class="cost__table_body02">49,000円</td>
                     </tr>
                     <tr>
                         <td class="cost__table_body01">11講</td>
-                        <td class="cost__table_body02">¥53,900円</td>
+                        <td class="cost__table_body02">53,900円</td>
                     </tr>
                     <tr>
                         <td class="cost__table_body01">12講</td>
-                        <td class="cost__table_body02">¥58,800円</td>
+                        <td class="cost__table_body02">58,800円</td>
                     </tr>
                     <tr>
                         <td class="cost__table_body01">22講</td>
-                        <td class="cost__table_body02">¥107,800円</td>
+                        <td class="cost__table_body02">107,800円</td>
                     </tr>
                     <tr>
                         <td class="cost__table_body01">24講</td>
-                        <td class="cost__table_body02">¥117,600円</td>
+                        <td class="cost__table_body02">117,600円</td>
                     </tr>
                     </tbody>
                 </table>
@@ -261,7 +264,7 @@
         <div class="entry">
             <p class="entry__text">入学ご検討の方は、まずは入学説明会に<br class="entry__text_sp">お越しください</p>
             <div class="entry__button">
-                <button class="c__button c__button_entry" type="button" onClick="location.href='/entry'">入学説明会に申し込む</button>
+                <a class="c__button c__button_entry" href="/entry">入学説明会に申し込む</a>
             </div>
         </div>
         <section class="info">
