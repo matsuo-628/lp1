@@ -526,7 +526,7 @@ header{
 @media screen and (max-width: 480px){
   .main-visual{
     height: 30vh;
-    margin-bottom: 2.4rem;
+    margin-bottom: 6rem;
   }
   .mv__content{
     padding: 3.4rem 1.6rem 0;
@@ -591,7 +591,7 @@ header{
 @media screen and (max-width: 767px)and (min-width: 481px){
   .main-visual{
     height: 45vh;
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
     background-image: url(/assets/image/mv__pc_01.jpg);
     background-size: cover;
     background-position: top center;
@@ -601,7 +601,7 @@ header{
   }
   .mv__img_sub{
     width: 34%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
   .mv__sub_text-small{
     font-size: 1.4rem;
@@ -628,7 +628,7 @@ header{
     min-width: 0;
   }
   .mv__text_big{
-    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    font-size: clamp(2.5rem, 4vw, 3.5rem);
     font-weight: bold;
     line-height: 1.4;
     color: #005BAC;
@@ -721,7 +721,7 @@ header{
   width: 50%;
 }
 /*sp(reason)=====*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .reason{
     margin-bottom: 3.6rem;
     scroll-margin-top: 8rem;
@@ -777,7 +777,7 @@ header{
   display: block;
 }
 /*sp(entry)==*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .entry{
     height: 21rem;
     padding: 4rem 0;
@@ -864,7 +864,7 @@ header{
   transition: transform 0.3s ease;
 }
 /*sp===*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .courses{
     margin-bottom: 6.4rem;
     scroll-margin-top: 8rem;
@@ -930,8 +930,13 @@ header{
   font-weight: bold;
   color: #F23397;
 }
+.cost__table_yen{
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: #F23397;
+}
 /*sp(cost)====*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .cost{
     margin-bottom: 6.3rem;
     scroll-margin-top: 8rem;
@@ -951,6 +956,9 @@ header{
   }
   .cost__table_body02{
     font-size: 2.8rem;
+  }
+  .cost__table_yen{
+    font-size: 1.6rem;
   }
 }
 /*info=======================*/
@@ -1007,7 +1015,7 @@ header{
   transform: scale(1.2);
 }
 /*sp(info)====*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .info {
     height: auto;
   }
@@ -1043,7 +1051,7 @@ footer{
   line-height: 12rem;
 }
 /*sp(footer)===*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   footer{
     height: 8.3rem;
   }
